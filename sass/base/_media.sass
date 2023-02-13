@@ -1,16 +1,141 @@
 
-@media ( max-width: 947px )
 
+@media ( max-width: 5000px)
+    .consultation
+        &__descr
+            text-align: left
+    .owl-carousel
+        margin: 0 auto
+        width: 650px
+        .owl-item
+            height: 580px
+        .owl-prev, .owl-next
+            left: -50px
+            top: 50%
+            transform: translateY(-50%)
+        .owl-next
+            right: -50px
+            left: auto
+            img
+                width: 31px
+                height: 50px
+    .catalog
+        &-item
+            width: 303px
+            margin-right: 17px
+            &:nth-child(3)
+                margin-right: 0
+            &:nth-child(6)
+                margin-right: 0
+        &__title
+            font-size: 16px
+            line-height: 25px
+        &__subtitle
+            font-size: 15px
+            line-height: 22px
+        &__content
+            justify-content: none
+
+
+
+@media ( max-width: 1000px )
+    .catalog
+        &-item
+            width: 315px
+            &:nth-child(2)
+                margin-right: 0
+            &:nth-child(3)
+                margin-right: 17px
+            &:nth-child(4)
+                margin-right: 0
+            &:nth-child(5)
+                margin-right: 17px
+            &:nth-child(6)
+                margin-right: 0px
+            
+        &__content
+            justify-content: center
+
+@media ( max-width: 850px )
+    .owl-carousel
+        width: 550px
+        .owl-item
+            height: 540px
+
+@media ( max-width: 700px )
+    .catalog
+        &-item
+            width: 355px
+            margin-right: 0
+            &:nth-child(3)
+                margin-right: 0
+            &:nth-child(5)
+                margin-right: 0
+            &__subtitle
+                font-size: 20px
+            &__title
+                font-size: 22px
+                line-height: 28px
+
+
+@media ( max-width: 980px )
+    .owl-carousel
+        .owl-item
+            height: 500px
     .advantage
         .icon_media
-            width: 218px
+            width: 228px
+    .promo
+        &__wrapper
+            margin-right: 30px
+        .header
+            &__logo
+                margin-left: 20px
+            &__contacts
+                margin-right: 20px
+    .consultation
+        &__wrapper
+            margin-left: 15px
+            margin-right: 15px
+        .title
+            &_left
+                margin-right: 15px
+                margin-left: 15px
+        &__descr
+            text-align: left
+            margin-right: 15px
+            margin-left: 15px
+
+@media ( max-width: 815px )
+    .consultation
+        .title
+            &_left
+                text-align: center
+                font-size: 32px
+                line-height: 37px
+        &__descr
+            text-align: center
+            font-size: 19px
+        &__wrapper
+            display: flex
+            justify-content: center
+    .catalog
+        &__tabs
+            padding-left: 0
+    
 
 @media (max-width: 767px)
-
+    .catalog
+        &__tabs
+            padding: 0 20px
+    .owl-carousel
+        width: 370px
+        .owl-item
+            height: 280px
     .promo
+        &__wrapper
+            margin-right: 0
         .header
-            // &__logo
-            //     width: 175px
             &__official
                 display: none
         .wrapper_media
@@ -34,10 +159,34 @@
                 font-size: 18px
 
 @media (max-width: 575px)
+    .owl-carousel
+        width: 320px
+        .owl-item
+            height: 240px
+        .owl-prev, .owl-next
+            img
+                width: 20px
+                height: 36px
+        .owl-prev
+            left: -30px
+        .owl-next
+            right: -30px
+    .consultation
+        padding: 60px 0 66px 0
+        .title
+            &_left
+                font-size: 22px
+                line-height: 35px
+        &__descr
+            font-size: 16px
+            line-height: 21px
     .promo
         .header
             &__logo
                 width: 160px
+                margin-left: 6px
+            &__contacts
+                margin-right: 6px
             &__phone
                 display: none
             .button
@@ -66,5 +215,18 @@
                 font-size: 18px
             .advantage__descr
                 font-size: 14px
+
+@media (max-width: 450px)
+    .owl-carousel
+        width: 200px
+        .owl-prev, .owl-next
+            img
+                width: 20px
+                height: 36px
+        .owl-prev
+            left: -30px
+        .owl-next
+            right: -30px
+
 
 
